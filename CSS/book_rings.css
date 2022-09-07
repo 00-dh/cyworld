@@ -1,0 +1,23 @@
+.book_ring{
+    width: 40px;
+    height: 12.5px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    position: absolute;
+    background-color: white;
+    left: 23.53%;
+}
+.book_ring__first{
+    top:23.5%;
+}
+
+.book_ring__second{
+    top: 28.5%;
+}
+.book_ring__third{
+    top:68.7%;
+}
+
+.book_ring__fourth{
+    top: 73.5%;
+}
