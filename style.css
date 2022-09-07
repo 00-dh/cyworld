@@ -1,0 +1,17 @@
+@import url("CSS/left_box.css");
+@import url("CSS/right_box.css");
+
+.background > img{
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+body{
+    -ms-overflow-style: none;
+}
+    
+::-webkit-scrollbar {
+     display: none;
+}
