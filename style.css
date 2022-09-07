@@ -1,6 +1,17 @@
 @import url("CSS/left_box.css");
 @import url("CSS/right_box.css");
 
+@font-face {
+    font-family: 'HBIOS-SYS';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    -ms-overflow-style: none;
+}
+
 .background > img{
     z-index: -1;
     width: 100vw;
@@ -8,9 +19,7 @@
     position: fixed;
 }
 
-body{
-    -ms-overflow-style: none;
-}
+
     
 ::-webkit-scrollbar {
      display: none;
