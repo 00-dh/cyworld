@@ -20,8 +20,11 @@ body{
     position: fixed;
 }
 
-
-    
 ::-webkit-scrollbar {
      display: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
