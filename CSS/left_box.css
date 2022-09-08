@@ -24,4 +24,27 @@
     border: 2px solid grey;
     border-radius: 20px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left_box__profile__photo > img{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.left_box__profile__feeling{
+    margin-top: 10px;
+}
+
+.left_box__profile__feeling > select{
+    font-family: 'HBIOS-SYS';
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
 }
