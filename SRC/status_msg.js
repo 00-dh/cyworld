@@ -9,12 +9,18 @@ function uploadStatusMsg(event) {
   event.preventDefault();
   const result = statusText.value;
   resultText.innerText = result;
-  statusText.value = "";
-  statusText.classList.add("hidden");
-  statusBtn.classList.add("hidden");
-  resultText.classList.remove("hidden");
+  if (statusBtn.innerText === "수정") {
+    statusText.classList.remove("hidden");
+    resultText.classList.add("hidden");
+    statusText.value = "";
+    statusBtn.innerText = "완료";
+  } else if (statusBtn.innerText === "완료") {
+    statusText.value = "";
+    statusText.classList.add("hidden");
+    statusBtn.innerText = "수정";
+    resultText.classList.remove("hidden");
+  }
 }
 
-/* needed bug fix first, resultText div space */
 /* needed bug fix second, resultText font color & text align */
 statusForm.addEventListener("submit", uploadStatusMsg);
