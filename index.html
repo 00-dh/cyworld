@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/b9df1fece5.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="reset.css" />
@@ -53,12 +57,20 @@
           <a class="day">https://github.com/00-dh</a>
         </div>
         <div class="right_box__board"></div>
-        <audio
-          src="music/NCT_DREAM_-_Beatbox.mp3"
-          controls="controls"
-          class="music"
-          style="width: 100%"
-        ></audio>
+        <div class="music">
+          <div class="music_btn">
+            <button>
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <button><i class="fa-solid fa-stop"></i></button>
+            <button><i class="fa-solid fa-backward-fast"></i></button>
+            <button><i class="fa-solid fa-forward-fast"></i></button>
+          </div>
+          <div class="music_range">
+            <i class="fa-solid fa-volume-high"></i>
+            <input type="range" style="width: 80%" />
+          </div>
+        </div>
       </div>
       <div class="book_ring book_ring__first"></div>
       <div class="book_ring book_ring__second"></div>
