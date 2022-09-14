@@ -79,11 +79,3 @@
   word-break: break-all;
   text-align: center;
 }
-
-.music{
-  margin-top: 10px;
-}
-
-audio::-webkit-media-controls-panel{
-  background-color: none;
-}
