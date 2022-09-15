@@ -6,6 +6,7 @@
     position: absolute;
     background-color: white;
     left: 370px;
+    position: fixed;
 }
 .book_ring__first{
     top:180px;
