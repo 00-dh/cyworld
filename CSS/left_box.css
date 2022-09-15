@@ -1,9 +1,9 @@
 .left_box {
-  width: 19%;
-  height: 74%;
+  width: 300px;
+  height: 550px;
   position: fixed;
-  left: 5.2%;
-  top: 9.5%;
+  left: 80px;
+  top: 80px;
   font-family: "HBIOS-SYS";
 }
 

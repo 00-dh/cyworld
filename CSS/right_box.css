@@ -1,9 +1,9 @@
 .right_box{
-    width: 50%;
-    height: 74%;
+    width: 700px;
+    height: 550px;
     position: fixed;
-    top: 9.5%;
-    left: 25.5%;
+    top: 80px;
+    left: 400px;
     font-family: 'HBIOS-SYS';
 }
 

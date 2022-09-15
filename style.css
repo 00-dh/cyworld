@@ -10,21 +10,6 @@
   font-style: normal;
 }
 
-.hidden {
-  display: none;
-}
-
-body {
-  -ms-overflow-style: none;
-}
-
-.background > img {
-  z-index: -1;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-}
-
 ::-webkit-scrollbar {
   display: none;
 }

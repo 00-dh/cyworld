@@ -5,19 +5,19 @@
     border-radius: 20px;
     position: absolute;
     background-color: white;
-    left: 23.53%;
+    left: 370px;
 }
 .book_ring__first{
-    top:23.5%;
+    top:180px;
 }
 
 .book_ring__second{
-    top: 28.5%;
+    top: 210px;
 }
 .book_ring__third{
-    top:68.7%;
+    top:540px;
 }
 
 .book_ring__fourth{
-    top: 73.5%;
+    top: 570px;
 }
