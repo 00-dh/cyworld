@@ -54,3 +54,7 @@ a {
   background-color: #F0F1F1;
   border-radius: 10px;
 }
+
+.hidden{
+  display:none;
+}
