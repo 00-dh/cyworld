@@ -1,6 +1,6 @@
-@import url("css_right_zone/right_box__todolist.css");
-@import url("css_right_zone/right_box__d-day.css");
-@import url("css_right_zone/right_box_minihome.css");
+@import url("right_board_zone/todolist.css");
+@import url("right_board_zone/d-day.css");
+@import url("right_board_zone/minihome.css");
 
 
 .right_box{
