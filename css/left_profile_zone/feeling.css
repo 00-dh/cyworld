@@ -1,0 +1,11 @@
+.left_box__profile__feeling {
+    margin-top: 10px;
+  }
+  
+  .left_box__profile__feeling > select {
+    font-family: "HBIOS-SYS";
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+  }

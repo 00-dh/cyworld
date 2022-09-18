@@ -1,3 +1,6 @@
+@import url("left_profile_zone/feeling.css");
+@import url("left_profile_zone/status_message.css");
+
 .left_box {
   width: 300px;
   height: 550px;
@@ -36,54 +39,4 @@
   height: 200px;
   border-radius: 10px;
   border: 2px solid grey;
-}
-
-.left_box__profile__feeling {
-  margin-top: 10px;
-}
-
-.left_box__profile__feeling > select {
-  font-family: "HBIOS-SYS";
-  font-size: 18px;
-  text-align: center;
-  border: 2px solid grey;
-  border-radius: 10px;
-}
-
-.left_box__profile__status-message {
-  margin-top: 10px;
-}
-
-.left_box__profile__status-message_box {
-  display: flex;
-  flex-direction: column;
-}
-
-.left_box__profile__status-message_box > textarea {
-  border: 2px solid grey;
-  border-radius: 10px;
-}
-
-.left_box__profile__status-message_box > button {
-  margin-top: 5px;
-  background-color: #49b8d5;
-  border: none;
-  border-radius: 10px;
-  color: white;
-  font-weight: bold;
-}
-
-.textarea {
-  width: 200px;
-  height: 150px;
-  word-break: break-all;
-  text-align: center;
-}
-
-.music{
-  margin-top: 10px;
-}
-
-audio::-webkit-media-controls-panel{
-  background-color: none;
 }
