@@ -1,5 +1,6 @@
 .right_box__board__todolist{
     width: 60%;
     height: 100%;
-    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
 }

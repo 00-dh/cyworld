@@ -56,7 +56,11 @@
             <div class="right_box__board">
               <div class="right_box__board__top">
                 <div class="right_box__board__todolist">
-                  <span>Todo LIST AREA</span>
+                  <form class="todo-list">
+                    <span>오늘 할 일: </span>
+                    <input type="text" class="todo-list_input"/>
+                  </form>
+                  <ul class="list-index"></ul>
                 </div>
                 <div class="right_box__board__d-day">
                   <span>D-DAY CALCULATE AREA</span>
@@ -76,6 +80,7 @@
         </div>
       </div>
     </div>
+    <script src="src/todo-list.js"></script>
     <script src="src/clock.js"></script>
     <script src="src/status_msg.js"></script>
   </body>
