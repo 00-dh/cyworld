@@ -10,8 +10,26 @@
     margin-top: 10%;
 }
 
-li{
+.list-index > li{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.list-index > li > button{
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+.todo-list_input{
+    position: fixed;
+}
+
+.todo-list_input > input{
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline: none;
 }
