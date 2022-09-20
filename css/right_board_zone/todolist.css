@@ -5,3 +5,13 @@
     box-sizing: border-box;
     overflow: scroll;
 }
+
+.list-index{
+    margin-top: 10%;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

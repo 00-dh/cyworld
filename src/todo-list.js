@@ -16,7 +16,7 @@ function painList(content) {
   span.innerText = content;
   li.appendChild(span);
   const button = document.createElement("button");
-  button.innerText = "❌";
+  button.innerText = "삭제";
   li.appendChild(button);
   button.addEventListener("click", deleteList);
 }
