@@ -2,6 +2,7 @@
     width: 60%;
     height: 100%;
     padding: 20px;
+    padding-top: 0px;
     box-sizing: border-box;
     overflow: scroll;
 }
@@ -26,6 +27,9 @@
 
 .todo-list_input{
     position: fixed;
+    width: 353.6px;
+    padding-top: 10px;
+    background-color: white;
 }
 
 .todo-list_input > input{
