@@ -65,7 +65,13 @@
                   <ul class="list-index"></ul>
                 </div>
                 <div class="right_box__board__d-day">
-                  <span>D-DAY CALCULATE AREA</span>
+                  <form class="d-day_form">
+                    <span>시작일</span><input class="first_d-day" type="date" />
+                    <br />
+                    <span>종료일</span><input class="last_d-day" type="date" />
+                    <button>계산</button>
+                    <span style="color: red" class="d-day_result"></span>
+                  </form>
                 </div>
               </div>
               <div class="right_box__board__bottom">
@@ -85,5 +91,6 @@
     <script src="src/todo-list.js"></script>
     <script src="src/clock.js"></script>
     <script src="src/status_msg.js"></script>
+    <script src="src/d-day.js"></script>
   </body>
 </html>
